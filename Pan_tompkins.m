@@ -4,7 +4,7 @@
 %All variables have the name ECG in them refer to the ECG signal.
 
 %1.load a file - 16265m.mat from Physionet MITBIH (time format:samples,
-%https://physionet.org/about/database/) - Ładowanie danych z bazy Physionet 
+%https://physionet.org/about/database/)
 dataEKG=load('16265m.mat');
 dataBP=load('meas225.txt');
 
