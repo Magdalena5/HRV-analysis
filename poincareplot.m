@@ -10,14 +10,6 @@ function [ sd1, sd2,sd1sd2,x_old,y_old,sd1_line_old,sd2_line_old] = poincareplot
 % - sd2: standard deviation along a horizontal line
 % - sd1 / sd2 ratio
 
-%% === Input
- 
- [b,a] = butter(5,.03);
-    y = filtfilt(b,a,signal_NN);
-
-   
-    %% PSD calculated using Fourier transform
-    signal_NN=signal_NN-y;
     
 % Normalize 
 signal_NN = reshape(signal_NN, 1, length(signal_NN));
