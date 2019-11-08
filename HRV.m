@@ -1,4 +1,6 @@
-load('D:\Elektrofizjologia\HRV\cw2\6.txt');
+
+%load data
+load('here_path_to_your_data');
 sig=X6;
 signal_NN=sig(:);
 l=length(sig);
