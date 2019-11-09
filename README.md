@@ -4,7 +4,8 @@ This algorithm can be used to analyze HRV signal in time and frequency domain an
 Pan_tompkins is a simple version of the Pan_tompkins algorithm for detecting R peaks from the ECG signal and peaks in the BP signal.
 
 timedomain: function calculate: mean, SDNN, RMSSD, pNN50
-frequency domain - shows power spectral density 
+
+frequency domain:shows power spectral density 
  HF- normalized spectrum power in the high frequency range
 LF - normalized spectrum power in the low frequency range
 LFHF - low frequency to low frequency power ratio
