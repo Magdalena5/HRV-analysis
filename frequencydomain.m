@@ -1,12 +1,17 @@
-function [LFnu,HFnu,LFHFfft] = frequencydomain (signal_NN,t);
+function [LFnu,HFnu,LFHFfft] = frequencydomain (signal_NN);
 % signal_NN-RR spacing vector
 
-[b,a] = butter(3,.07);
+[b,a] = butter(3,.02);
 y = filtfilt(b,a,signal_NN);
+
+signal_NN(:)=signal_NN(:)-y(:);
+f=5;
+N=length(signal_NN);
+signal_NN =signal_NN -mean(signal_NN);
 %% PSD (Power-spectral-density) calculated using Fourier transform
-y(:)=signal_NN(:)-y(:);
+
 [pxx_fft,Ffft] = pwelch(y,300,150,[],1);
-%pxx_fft(1) = 0;
+pxx_fft(1) = 0;
 %% PSD calculated using Autoregression
 
 % [pxx_ar, Far] = pburg(y,16,[],1);
