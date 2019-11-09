@@ -5,7 +5,7 @@ Pan_tompkins is a simple version of the Pan_tompkins algorithm for detecting R p
 
 
 
-[Tachogram](https://github.com/Magdalena5/HRV-analysis/blob/master/figures/Tachogram.jpg)
+![Tachogram](https://github.com/Magdalena5/HRV-analysis/blob/master/figures/Tachogram.jpg)
 
 
 
