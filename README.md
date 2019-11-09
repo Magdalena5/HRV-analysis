@@ -5,7 +5,7 @@ Pan_tompkins is a simple version of the Pan_tompkins algorithm for detecting R p
 
 
 
-[Tachogram](https://github.com/Magdalena5/HRV-analysis/issues/1)
+[Tachogram](https://github.com/Magdalena5/HRV-analysis/blob/master/figures/Tachogram.jpg)
 timedomain: function calculate: mean, SDNN, RMSSD, pNN50
 
 frequency domain:shows power spectral density 
@@ -18,4 +18,4 @@ Poincaré has two parameters:
 small axis of the ellipse (SD1) - standard deviation measuring the dispersion of points perpendicular to the straight line y = x. This parameter describes short-term variability.
 and the major axis of the ellipse (SD2) - this is the standard deviation measuring the dispersion parallel to the line y = x. This parameter describes long-term variability.
 
-[Tachogram](https://github.com/Magdalena5/HRV-analysis/issues/1)
+
