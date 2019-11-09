@@ -6,6 +6,9 @@ Pan_tompkins is a simple version of the Pan_tompkins algorithm for detecting R p
 
 
 [Tachogram](https://github.com/Magdalena5/HRV-analysis/blob/master/figures/Tachogram.jpg)
+
+
+
 timedomain: function calculate: mean, SDNN, RMSSD, pNN50
 
 frequency domain:shows power spectral density 
