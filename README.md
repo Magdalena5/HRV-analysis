@@ -17,6 +17,8 @@ LF - normalized spectrum power in the low frequency range
 LFHF - low frequency to low frequency power ratio
 
 ![Power Spectral Density](https://github.com/Magdalena5/HRV-analysis/blob/master/figures/Spectrum.jpg)
+
+
 Poincare plot
 Poincaré has two parameters:
 small axis of the ellipse (SD1) - standard deviation measuring the dispersion of points perpendicular to the straight line y = x. This parameter describes short-term variability.
