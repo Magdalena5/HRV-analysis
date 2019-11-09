@@ -13,3 +13,5 @@ Poincare plot
 Poincaré has two parameters:
 small axis of the ellipse (SD1) - standard deviation measuring the dispersion of points perpendicular to the straight line y = x. This parameter describes short-term variability.
 and the major axis of the ellipse (SD2) - this is the standard deviation measuring the dispersion parallel to the line y = x. This parameter describes long-term variability.
+
+
