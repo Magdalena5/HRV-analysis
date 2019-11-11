@@ -25,7 +25,7 @@ signal_NNt=signal_NNt.*1000;
  signal_NNf = interp1(t,signal_NN,t2,'spline');
 [LFnu,HFnu,LFHFfft] = frequencydomain (signal_NNf)
 
-[ sd1, sd2,sd1sd2,x_old,y_old,sd1_line_old,sd2_line_old] = poincareplot(signal_NN);
+[ sd1, sd2,sd1sd2,x_old,y_old,sd1_line_old,sd2_line_old] = poincareplot(signal_NNt);
 
 figure(1)
 plot(t,sig);
